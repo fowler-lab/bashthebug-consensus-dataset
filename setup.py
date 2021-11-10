@@ -1,5 +1,4 @@
 from setuptools import setup
-from gumpy import __version__
 
 with open("README.md", "r") as f:
     README = f.read()
