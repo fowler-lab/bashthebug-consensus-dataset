@@ -14,6 +14,24 @@ This repository contains the raw data tables used in the below scientific prepri
 
 This README will be updated when the manuscript is published in a scientific journal.
 
+## Installation
+
+This isn't a software module, but is instead a collection of data tables and a jupyter notebook that reads and analyses the data, creating the figures and tables in the manuscript.
+
+That said, the notebook does have a number of prerequisites which are specified in `requirements.txt` and `setup.py`. These are `numpy`, `pandas`, `scipy` and `matplotlib` and the versions used in development are specified in `setup.py`, should you wish to fix them to solve any future reproducibility problems.
+
+### Running locally 
+
+Simply install as you would a regular Python module -- this will install or update the prerequisites
+
+```
+$ python3 setup.py install --user
+```
+
+### Running in browser using MyBinder
+
+Click the `launch binder` button at the top of this `README`; this will use the MyBinder service to create a Docker container and install the pre-requisites listed in `requirements.txt`. Due to the limited memory available to the container, there is a flag `running_in_binder` that you will need to set to `True` to stop the code trying to load the large `BOOTSTRAPPED_CLASSIFICATIONS` table since that will fail.
+
 ## Data tables
 
 These are described in the schema below and are found, as gzipped `csv` files in `tables/`
@@ -36,8 +54,12 @@ As described in the paper, during that study the laboratory scientists made meas
 
 AMyGDA is described in this paper and the software is available from [here](https://github.com/fowler-lab/amygda).
 
-> Automated detection of bacterial growth on 96-well plates for high-throughput drug susceptibility testing of Mycobacterium tuberculosis.
+> *Automated detection of bacterial growth on 96-well plates for high-throughput drug susceptibility testing of Mycobacterium tuberculosis.*
 >
 > Fowler PW, Gibertoni Cruz AL, Hoosdally SJ, Jarrett L, Borroni E, et al.  
 > 
 > Microbiology 2018;164:1522–1530. [doi:10.1099/mic.0.000733](https://doi.org/10.1099/mic.0.000733)
+
+## Recreating the figures and tables
+
+
