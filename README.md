@@ -14,6 +14,8 @@ This repository contains the raw data tables used in the below scientific prepri
 
 This README will be updated when the manuscript is published in a scientific journal.
 
+Philip W Fowler, 10 Nov 2021
+
 ## Installation
 
 This isn't a software module, but is instead a collection of data tables and a jupyter notebook that reads and analyses the data, creating the figures and tables in the manuscript.
@@ -62,4 +64,4 @@ AMyGDA is described in this paper and the software is available from [here](http
 
 ## Recreating the figures and tables
 
-
+Open the jupyter-notebook `recreate-figures-and-tables.ipynb` and run the cells, either one at a time, or all in one go. There are some comments describing which table or figure is created by a particular cell and all figures are written out to a `pdf/` folder that will be automatically created in this repository.
