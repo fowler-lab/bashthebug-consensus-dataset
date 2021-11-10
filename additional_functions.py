@@ -71,7 +71,7 @@ def plot_heatmap(df,reading_day,type,dataset,n_classifications,growth,method,lab
     # with open(path / filename,'wb') as f:
     #     numpy.save(f,df)
 
-    plt.close()
+    # plt.close()
 
 #     return(row)
 
@@ -125,7 +125,7 @@ def plot_classifications_hist(series,reading_day,type,dataset,n_classifications,
     filename='hist-'+label+'.pdf'
 
     figure.savefig(path / filename,transparent=True)
-    plt.close()
+    # plt.close()
 
 def calculate_grid_metrics(df):
 
@@ -139,7 +139,7 @@ def calculate_grid_metrics(df):
     row=[numpy.sum(df)]
 
     df=df/numpy.sum(df)
-    df*=100    
+    df*=100
 
     # diagonal, excluding (NR,NR)
     row.append(sum([df[i][i] for i in range(1,10)]))
