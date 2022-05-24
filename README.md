@@ -4,17 +4,15 @@
 
 ## Purpose
 
-This repository contains the raw data tables used in the below scientific preprint that is currently under review at a journal. Its aim is to ensure that the results can be reproduced by other people and therefore a Jupyter notebook is included that allows one to recreate nearly all the figures and tables in the manuscript from the raw data tables.
+This repository contains the raw data tables used in the below scientific paper. Its aim is to ensure that the results can be reproduced by other people and therefore a Jupyter notebook is included that allows one to recreate nearly all the figures and tables in the manuscript from the raw data tables.
 
-> *BashTheBug: a crowd of volunteers reproducibly and accurately measure the minimum inhibitory concentrations of 13 antitubercular drugs from photographs of 96-well broth microdilution plates*
+> *A crowd of BashTheBug volunteers reproducibly and accurately measure the minimum inhibitory concentrations of 13 antitubercular drugs from photographs of 96-well broth microdilution plates.*
 > 
-> Fowler PW, Wright C, Spiers H, Zhu T, Baeten EML, Hoosdally SW, Gibertoni Cruz AL, Roohi A, Kouchaki S, Walker TM, Peto TEA, Miller G, Lintott C, Clifton D, Crook DW, Walker AS, The CRyPTIC Consortium
+> Fowler PW, Wright C, Spiers H, Zhu T, Baeten EML, Hoosdally SW, Gibertoni Cruz AL, Roohi A, Kouchaki S, Walker TM, Peto TEA, Miller G, Lintott C, Clifton D, Crook DW, Walker AS, The Zooniverse Volunteer Community, The CRyPTIC Consortium
 > 
-> bioRxiv preprint [doi:10.1101/2021.07.20.453060](https://doi.org/10.1101/2021.07.20.453060)
+> eLife [doi:10.7554/eLife.75046 ](https://doi.org/10.7554/eLife.75046 )
 
-This README will be updated when the manuscript is published in a scientific journal.
-
-Philip W Fowler, 10 Nov 2021
+Philip W Fowler, 24 May 2022
 
 ## Installation
 
