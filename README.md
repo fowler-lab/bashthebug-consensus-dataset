@@ -12,7 +12,7 @@ This repository contains the raw data tables used in the below scientific paper.
 > 
 > eLife [doi:10.7554/eLife.75046 ](https://doi.org/10.7554/eLife.75046 )
 
-Philip W Fowler, 24 May 2022
+Philip W Fowler, 19 July 2022
 
 ## Installation
 
